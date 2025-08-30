@@ -1,11 +1,4 @@
-from fastapi import FastAPI, Depends, HTTPException, status, UploadFile, File, Header  # FastAPI for web app, dependency injection, error handling, file uploads
-from fastapi.responses import FileResponse  # For sending files as responses
-import jwt  # For JSON Web Token (JWT) handling
-import os  # For file system operations
-import subprocess  # For running FFmpeg commands
-import uuid  # For generating unique video IDs
-import sqlite3  # For SQLite database operations
-from functools import wraps  # For creating decorators
-from pydantic import BaseModel  # For defining request body models
-from typing import Optional  # For optional type hints
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials  # For handling Bearer token authentication
+fastapi==0.115.0
+pyjwt==2.9.0
+python-multipart==0.0.12
+uvicorn==0.31.1
