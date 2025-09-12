@@ -10,5 +10,11 @@
     "user": "testuser",
     "status": "completed",
     "output": "outputs/f56e0065-8907-4675-9d80-c16323fd564b.mp4"
+  },
+  {
+    "id": "c704d613-c75d-47d8-9f02-dc68475fadd2",
+    "user": "testuser",
+    "status": "completed",
+    "output": "outputs/c704d613-c75d-47d8-9f02-dc68475fadd2.mp4"
   }
 ]
